@@ -8,11 +8,8 @@
 
 
 
-/* index y entrenamiento con media querie */
-/* subir a github */
-
 legend{
-    font-size: 30px;
+    font-size: 1.875rem ;
 }
 
 header{
@@ -22,7 +19,7 @@ header{
     background-position:center;
     width: 100%;
     height:300px;
-    font-size: 20px;
+    font-size:1.25rem;
     display: flex;
     justify-content: space-between;
     
@@ -64,7 +61,7 @@ header img{
 .navbar li a{
     text-decoration: none;
     color: rgba(233, 6, 6, 0.904);
-    font-size: 25px;   
+    font-size: 1.5625rem;   
 
 }
 
@@ -78,7 +75,7 @@ header img{
     color: rgb(0, 0, 0);
     font-family: 'Racing Sans One', cursive;
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: 1.5625rem;
 
 }
 
@@ -99,7 +96,7 @@ header img{
     box-shadow: 3px 2px 5px black;
     text-align: center;
     font-family: 'Racing Sans One', cursive;
-    font-size:20px; 
+    font-size:1.25rem; 
     border-radius: 15px;
     margin: 20px 20px;
 
@@ -108,7 +105,7 @@ header img{
 
 .boton{
     background-color: rgba(238, 255, 0, 0.747);
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-top: 20px;
 }
 .tachadoUno{
@@ -151,7 +148,7 @@ header img{
 .cardEntrenamientocontainer{
     width: 100%;
     height: 400px;
-    font-size: 20px;
+    font-size: 1.25rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -210,7 +207,7 @@ header img{
 
 
 .tituloNutricion{
-    font-size:40px ;
+    font-size:2.5rem ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,7 +237,7 @@ header img{
     text-align: center;
     background-color: rgba(128, 128, 128, 0.096);
     font-family: 'Racing Sans One', cursive; 
-    font-size:20px ;
+    font-size:1.25rem ;
 
 }
 
@@ -256,7 +253,7 @@ header img{
 }
 .seccionHdc button{
     background-color: rgba(255, 0, 0, 0.178);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .seccionProteinas{
@@ -264,7 +261,7 @@ header img{
     text-align: center;
     background-color: rgba(128, 128, 128, 0.096);
     font-family: 'Racing Sans One', cursive; 
-    font-size:20px ;
+    font-size:1.25rem;
 
 }
 
@@ -282,7 +279,7 @@ header img{
 
 .seccionProteinas button{
     background-color: rgba(255, 0, 0, 0.178);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .seccionGrasas{
@@ -290,13 +287,13 @@ header img{
     text-align: center;
     background-color: rgba(128, 128, 128, 0.096);
     font-family: 'Racing Sans One', cursive; 
-    font-size:20px ;
+    font-size:1.25rem;
 
 }
 
 .seccionGrasas button{
     background-color: rgba(255, 0, 0, 0.178);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .imgNutriciontres{
@@ -312,7 +309,7 @@ header img{
 .seccionRecetario h3{
     text-align: center;
     font-family: 'Racing Sans One', cursive; 
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .iframeUno{
@@ -343,13 +340,13 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px; 
+    font-size: 2.5rem; 
 
 }
 
 .textoUno{
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: 'Racing Sans One', cursive;
     display: flex;
     justify-content: center;
@@ -426,7 +423,7 @@ header img{
     display: flex;
     justify-content: center;
     align-items:flex-start;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: brown;
 }
 
@@ -437,7 +434,7 @@ header img{
 
 
 .formularioUno{
-    font-size: 25px;
+    font-size: 1.5625rem;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -450,14 +447,14 @@ header img{
     width: 100%;
     font-family: 'Racing Sans One', cursive; 
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size:1.5625rem;
     margin-bottom: 50px;
 
 }
 
 
 .formularioTres{
-    font-size: 25px;
+    font-size: 1.5625rem;
     width: 100%;
     font-family: 'Racing Sans One', cursive; 
     display: flex;
@@ -472,11 +469,11 @@ header img{
     display: flex;
     justify-content: center;
     font-family: 'Racing Sans One', cursive; 
-    font-size: 35px;
+    font-size: 2.1875rem;
 }
 
 .textoDiez{
-    font-size:20px;
+    font-size:1.25rem;
     font-family: 'Racing Sans One', cursive;
     display: flex;
     justify-content: center;
@@ -486,7 +483,7 @@ header img{
 .cuentanosMas{
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 
@@ -513,23 +510,91 @@ footer p{
     height: 150px;
 }
 
-/* vamos a estar trabajando::
--768px tablet
--320 mobile
-420*/
-
-/* cambio tipografias a rem */
 
 
 @media(max-width:420px){
     .navbar{
         flex-direction: column;
+        font-size: .625rem;
+        align-items: center;
+        gap: 9px;
     }
     header{
         margin-bottom: 128px;
+        height: 309px;
     }
+    .cuentanosMas{
+        font-size: 1.5rem;
+    }
+    .legend{
+        font-size:1.5rem;
+    }   
     .flexQuienes{
         flex-direction: column;
         gap:10px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .flexQuienes img{
+        width: 145px;
+        margin-top: -7px;
+    }
+    .textoUno{
+        font-size:1.125rem;
+    }
+    .tituloQuienes{
+        font-size: 1.5625rem;
+    }
+    .galleryTitulo{
+        font-size: 1.625rem;
+        text-align: center;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(1,3%);
+        grid-template-rows:repeat(1,28%);
+        grid-area:  
+        "item1 item3 "
+        "item1 item3"
+        "item1 item4"
+        "item5 item5"
+        ;
+    }
+
+}   
+
+
+
+
+@media(max-width:320px){
+    header{
+        width: 105%;
+        margin-bottom: 7px;
+        height: 391px;
+    }
+    body{
+        width: 100%;
+
+    }
+    .navbar{
+        flex-direction: column;
+        font-size: 3.625rem;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 9px;
+        width: 100%;
+
     }
 }
+
+@media(max-width:768px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;    
+    }
+    
+}
+
+
+

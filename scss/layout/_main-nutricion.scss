@@ -1,0 +1,57 @@
+.cardGrid{
+    width: 100%;
+    height: 43.75rem;
+    @include grid (2fr 2fr, 1fr 1fr 1fr,center,"seccionHdc imgNutricionuno""imgNutriciondos seccionProteinas""seccionGrasas imgNutriciontres");
+        .seccionHdc{
+            grid-area: seccionHdc;
+            text-align: center;
+            background-color: rgba(128, 128, 128, 0.096);
+            font-family: 'Racing Sans One', cursive; 
+            font-size:1.25rem ;
+        }
+        .seccionProteinas{
+            grid-area: seccionProteinas;
+            @extend .seccionHdc;
+        }
+        .seccionGrasas{
+            grid-area: seccionGrasas;
+            @extend .seccionProteinas;
+        }
+        button{
+            background-color: rgba(255, 0, 0, 0.178);
+            font-size: 1.25rem;
+        }
+        .imgNutricionuno{
+            width: 12.5rem;
+            grid-area: imgNutricionuno;
+            display: flex;
+            justify-content: center;
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            }
+            .imgNutriciondos{
+                grid-area:imgNutriciondos ;
+                @extend .imgNutricionuno;
+                justify-content: flex-end;
+                width: auto;
+            }
+            .imgNutriciontres{
+                grid-area: imgNutriciontres;
+                @extend .imgNutriciondos;
+                justify-content: flex-start;
+            }
+            
+}   
+
+.seccionRecetario{
+    h3{
+        text-align: center;
+        font-family: 'Racing Sans One', cursive; 
+        font-size: 1.875rem;
+    }
+}
+
+.iframeUno{
+    display: flex;
+    justify-content: center;
+}

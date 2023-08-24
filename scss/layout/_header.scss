@@ -1,0 +1,36 @@
+header{
+    background-image: url(../assets/imagenes/fondo\nuevo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height:25rem;
+    font-size:1.25rem;
+    display: flex;
+    justify-content: space-between;
+    div{
+        img{
+            width: 28.125rem;
+            height: 25rem;
+        }
+    }
+}
+
+
+.navbar{
+    list-style: none;
+    font-family: 'Racing Sans One', cursive; 
+    display: flex;
+    flex-direction: row;
+    margin-right: 1.25rem;
+    gap: 1.25rem;
+        li{
+                    text-decoration: none;
+                    font-size: 1.5625rem;   
+                }
+
+}
+
+header div img:hover{
+    transform: scale(1.25);
+}

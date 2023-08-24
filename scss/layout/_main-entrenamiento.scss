@@ -1,0 +1,48 @@
+.cardEntrenamientocontainer{
+    width: 100%;
+    height: 32rem;
+    font-size: 1.125rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+        .cardE{
+            width: 20.75rem;
+            height: 25rem;
+            border: 2px solid $color-border;
+            box-shadow: 3px 2px 5px black;
+            text-align: center;
+            font-family: 'Racing Sans One', cursive;
+            border-radius: .9375rem;
+        }
+        .cardInfo{
+            color: black;
+            padding-right: 18px;
+        }
+        .fuerza{
+            background-color: blue;
+        }
+        .hiit{
+            background-color: red;
+        }
+        .cardio{
+            background-color: chartreuse;
+        }
+        .hipertrofia{
+            background-color: rgb(128, 0, 122);
+        }
+        .cardImg{
+            width: 100%;
+            height: 12.5rem;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+                img{
+                    width: 100%;
+                    height: 118%;
+                    object-fit: contain;
+                    margin-top: .75rem  ;
+                }
+        }
+}

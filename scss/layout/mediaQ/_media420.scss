@@ -1,0 +1,73 @@
+@media(max-width:420px){
+    header{
+        div{
+            img{
+                width: 10.125rem;
+                height: 9rem;
+            }
+        }
+    }
+    main{
+        height: 95.25rem;
+        .button {
+            background-color: rgba(255, 81, 0, 0.747);
+            font-size: 1rem;
+            margin-top: 0.25rem;
+            }
+        h1{
+            font-size: 1.25rem;
+        }
+        h2{
+            font-size: 1rem;
+            text-align: center;
+            width: 117%;
+        }
+        .flexRedondo {
+            padding-top: 0px;
+        }
+        .cardContainer{
+            height: 68.25rem;
+            display: flex;
+            flex-direction: column;
+            width: 79%;
+                .card{
+                    width: 57%;
+                    height: 15.5rem;
+                    font-size: 0.9rem;
+                }
+        }
+        .cardGrid{
+            .imgNutricionuno{
+                width: 12.5rem;
+                height: 6.5rem;
+            }
+        }
+        .textoUno{
+            font-size: 0.900rem;
+        }
+        .galleryTitulo{
+            font-size: 1.5rem;
+        }
+        .cuentanosMas{
+            font-size: 1rem;
+        }
+        label{
+            font-size: 1.25rem;
+        }
+        .textoDiez{
+            font-size: 1rem;
+        }
+        .cardEntrenamientocontainer{
+            .cardE{
+                width: 11.75rem;
+                height: 27rem;
+                font-size: .9375rem;
+                margin-bottom: 20px;
+            }
+        }
+        .iframeIndex{
+            display: none;
+        }
+    }
+
+}   

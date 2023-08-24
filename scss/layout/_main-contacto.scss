@@ -1,0 +1,49 @@
+.formularioUno{
+    font-size: 1.5625rem;
+    width: 100%;
+    font-family: 'Racing Sans One', cursive; 
+    @include flex(row, center, none, 3.125rem);
+
+}
+
+.formularioDos{
+    width: 100%;
+    font-family: 'Racing Sans One', cursive; 
+    margin-bottom: 1.25rem;
+    font-size:1.5625rem;
+    margin-bottom: 3.125rem;
+
+}
+
+
+.formularioTres{
+    font-size: 1.5625rem;
+    width: 100%;
+    font-family: 'Racing Sans One', cursive; 
+    margin-bottom: 3.125rem;
+    @include flex(column, none, none, 3.125rem);
+}
+
+
+.tituloDiez{
+    display: flex;
+    justify-content: center;
+    font-family: 'Racing Sans One', cursive; 
+    font-size: 2.1875rem;
+}
+
+.textoDiez{
+    font-size:1.25rem;
+    font-family: 'Racing Sans One', cursive;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cuentanosMas{
+    display: flex;
+    justify-content: center;
+    font-size: 1.875rem;
+}
+
+

@@ -1,600 +1,535 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Racing+Sans+One&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Racing+Sans+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+li {
+  list-style: none; }
 
-
-
-legend{
-    font-size: 1.875rem ;
-}
-
-header{
-    background-image: url(../assets/imagenes/photo-1592588253414-887759037c2a.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    width: 100%;
-    height:300px;
-    font-size:1.25rem;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-main{
-    background-color:rgba(55, 0, 255, 0.26);
-}
-
-
-.fondoUno{
-    background-image: url(../assets/imagenes/1000_F_107617179_Xm1pv9u0RZUPi6VekOgy7R6zAEfikw58.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-
-}
-
-li{
-    list-style: none;
-
-}
-
-header img{
-    width: 450px;
-    height: 400px;
-}
-.navbar {     
-    list-style: none;
-    font-family: 'Racing Sans One', cursive; 
-    display: flex;
-    flex-direction: row;
-    margin-right: 20px;
-    gap: 20px;
-
-}
-
-.navbar li a{
-    text-decoration: none;
-    color: rgba(233, 6, 6, 0.904);
-    font-size: 1.5625rem;   
-
-}
-
-
-
-
-.tituloNueve{
+main {
+  background-color: rgba(55, 0, 255, 0.26); }
+  main h1 {
     text-align: center;
+    font-size: 2.5rem;
     display: flex;
     justify-content: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Racing Sans One', cursive;
-    letter-spacing: 2px;
-    font-size: 1.5625rem;
-
-}
-
-.cardContainer{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    justify-content: space-evenly;
-    align-items: flex-end;
-}
-.card{
-    background-color:rgba(0, 0, 128, 0.452) ;
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
-    box-shadow: 3px 2px 5px black;
-    text-align: center;
-    font-family: 'Racing Sans One', cursive;
-    font-size:1.25rem; 
-    border-radius: 15px;
-    margin: 20px 20px;
-
-
-}
-
-.boton{
+    align-items: center;
+    color: rgba(97, 6, 6, 0.87); }
+  main button {
     background-color: rgba(238, 255, 0, 0.747);
     font-size: 1.25rem;
-    margin-top: 20px;
-}
-.tachadoUno{
-    text-decoration: line-through;
-}
+    margin-top: 1.25rem; }
 
+button :hover {
+  color: red;
+  font-size: 1.3125rem; }
 
+.navbar li a:hover {
+  color: red; }
 
-.flexRedondo{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    justify-content: space-evenly; 
-    align-items: flex-end;
-    padding-top: 100px;
+header {
+  background-image: url(../assets/imagenes/fondo\nuevo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 25rem;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between; }
+  header div img {
+    width: 28.125rem;
+    height: 25rem; }
 
-}
+.navbar {
+  list-style: none;
+  font-family: 'Racing Sans One', cursive;
+  display: flex;
+  flex-direction: row;
+  margin-right: 1.25rem;
+  gap: 1.25rem; }
+  .navbar li {
+    text-decoration: none;
+    font-size: 1.5625rem; }
 
-.imagenRedonda{
-    border-radius: 250px;
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-    box-shadow: 4px 4px 6px black;
+header div img:hover {
+  transform: scale(1.25); }
 
-}
+.fondoUno {
+  background-image: url(../assets/imagenes/1000_F_107617179_Xm1pv9u0RZUPi6VekOgy7R6zAEfikw58.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  width: 100%; }
 
-/* entrenamiento */
-
-.hUno{
-    height: 100px;;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.cardEntrenamientocontainer{
-    width: 100%;
-    height: 400px;
-    font-size: 1.25rem;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.cardE{
-    width: 300px;
-    height: 400PX;
+.cardContainer {
+  width: 100%;
+  height: 31.25rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: flex-end; }
+  .cardContainer .card {
+    background-color: rgba(0, 0, 128, 0.452);
+    width: 18.75rem;
+    height: 18.75rem;
     border: 2px solid black;
     box-shadow: 3px 2px 5px black;
     text-align: center;
     font-family: 'Racing Sans One', cursive;
-    border-radius: 15px;
-}
+    font-size: 1.25rem;
+    border-radius: .9375rem;
+    margin: 1.25rem 1.25rem; }
 
-.hiit{
-    background-color: red;
-}
-.fuerza{
-    background-color: blue;
-}
+.tachadoUno {
+  text-decoration: line-through; }
 
-.cardImg{
+.flexRedondo {
+  width: 100%;
+  height: 31.25rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-top: 6.25rem; }
+  .flexRedondo img {
+    border-radius: 15.625rem;
+    width: 12.5rem;
+    height: 12.5rem;
+    border: 1px solid black;
+    box-shadow: 4px 4px 6px black; }
+
+.flexRedondo img:hover {
+  transform: scale(1.15); }
+
+.cardEntrenamientocontainer {
+  width: 100%;
+  height: 32rem;
+  font-size: 1.125rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center; }
+  .cardEntrenamientocontainer .cardE {
+    width: 20.75rem;
+    height: 25rem;
+    border: 2px solid black;
+    box-shadow: 3px 2px 5px black;
+    text-align: center;
+    font-family: 'Racing Sans One', cursive;
+    border-radius: .9375rem; }
+  .cardEntrenamientocontainer .cardInfo {
+    color: black;
+    padding-right: 18px; }
+  .cardEntrenamientocontainer .fuerza {
+    background-color: blue; }
+  .cardEntrenamientocontainer .hiit {
+    background-color: red; }
+  .cardEntrenamientocontainer .cardio {
+    background-color: chartreuse; }
+  .cardEntrenamientocontainer .hipertrofia {
+    background-color: #80007a; }
+  .cardEntrenamientocontainer .cardImg {
     width: 100%;
-    height: 200px;
+    height: 12.5rem;
     overflow: hidden;
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column; }
+    .cardEntrenamientocontainer .cardImg img {
+      width: 100%;
+      height: 118%;
+      object-fit: contain;
+      margin-top: .75rem; }
 
-.cardImg img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-
-}
-
-.cardInfo{
-    color: black;
-
-}
-
-
-.cardio{
-    background-color: chartreuse;
-}
-.hipertrofia{
-    background-color: rgb(128, 0, 122);
-}
-
-
-
-/*Nutricion deportiva*/
-
-
-.tituloNutricion{
-    font-size:2.5rem ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-
-
-}
-
-.cardGrid{
-    width: 100%;
-    height: 700px;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "seccionHdc imgNutricionuno" 
-    "imgNutriciondos seccionProteinas"
-    "seccionGrasas imgNutriciontres"
-    ;
-    align-items: center;
-
-}
-
-
-.seccionHdc{    
+.cardGrid {
+  width: 100%;
+  height: 43.75rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  grid-template-areas: "seccionHdc imgNutricionuno" "imgNutriciondos seccionProteinas" "seccionGrasas imgNutriciontres"; }
+  .cardGrid .seccionHdc, .cardGrid .seccionProteinas, .cardGrid .seccionGrasas {
     grid-area: seccionHdc;
     text-align: center;
     background-color: rgba(128, 128, 128, 0.096);
-    font-family: 'Racing Sans One', cursive; 
-    font-size:1.25rem ;
-
-}
-
-.imgNutricionuno{
-    width: 200px;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 1.25rem; }
+  .cardGrid .seccionProteinas, .cardGrid .seccionGrasas {
+    grid-area: seccionProteinas; }
+  .cardGrid .seccionGrasas {
+    grid-area: seccionGrasas; }
+  .cardGrid button {
+    background-color: rgba(255, 0, 0, 0.178);
+    font-size: 1.25rem; }
+  .cardGrid .imgNutricionuno, .cardGrid .imgNutriciondos, .cardGrid .imgNutriciontres {
+    width: 12.5rem;
     grid-area: imgNutricionuno;
     display: flex;
     justify-content: center;
     filter: brightness(1.1);
-    mix-blend-mode: multiply;
-
-
-}
-.seccionHdc button{
-    background-color: rgba(255, 0, 0, 0.178);
-    font-size: 1.25rem;
-}
-
-.seccionProteinas{
-    grid-area: seccionProteinas;
-    text-align: center;
-    background-color: rgba(128, 128, 128, 0.096);
-    font-family: 'Racing Sans One', cursive; 
-    font-size:1.25rem;
-
-}
-
-.imgNutriciondos{
-    grid-area:imgNutriciondos ;
-    display: flex;
+    mix-blend-mode: multiply; }
+  .cardGrid .imgNutriciondos, .cardGrid .imgNutriciontres {
+    grid-area: imgNutriciondos;
     justify-content: flex-end;
-    filter: brightness(1.1);
-    mix-blend-mode: multiply;  
-
-
-
-
-}
-
-.seccionProteinas button{
-    background-color: rgba(255, 0, 0, 0.178);
-    font-size: 1.25rem;
-}
-
-.seccionGrasas{
-    grid-area: seccionGrasas;
-    text-align: center;
-    background-color: rgba(128, 128, 128, 0.096);
-    font-family: 'Racing Sans One', cursive; 
-    font-size:1.25rem;
-
-}
-
-.seccionGrasas button{
-    background-color: rgba(255, 0, 0, 0.178);
-    font-size: 1.25rem;
-}
-
-.imgNutriciontres{
+    width: auto; }
+  .cardGrid .imgNutriciontres {
     grid-area: imgNutriciontres;
-    display: flex;
-    justify-content: flex-start;
-    filter: brightness(1.1);
-    mix-blend-mode: multiply;
+    justify-content: flex-start; }
 
+.seccionRecetario h3 {
+  text-align: center;
+  font-family: 'Racing Sans One', cursive;
+  font-size: 1.875rem; }
 
-}
+.iframeUno {
+  display: flex;
+  justify-content: center; }
 
-.seccionRecetario h3{
-    text-align: center;
-    font-family: 'Racing Sans One', cursive; 
-    font-size: 1.875rem;
-}
+.textoUno {
+  text-align: center;
+  font-size: 1.875rem;
+  font-family: 'Racing Sans One', cursive;
+  display: flex;
+  justify-content: center; }
 
-.iframeUno{
-    display: flex;
-    justify-content: center;
-}
+.tituloOnce {
+  font-family: 'Racing Sans One', cursive;
+  display: flex;
+  justify-content: center; }
 
+.flexQuienes {
+  width: 100%;
+  height: 12.5rem;
+  display: flex;
+  justify-content: center; }
 
+.gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat 3, 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  align-items: none;
+  grid-template-areas: "item1 item1 item2 item3" "item1 item1 item5 item5" "item4 item4 item4 item4";
+  gap: 5px;
+  height: 56.25rem; }
 
-.tituloCuatro{
-    color: forestgreen;
-}
+.item1 {
+  grid-area: item1;
+  height: 36.25rem; }
 
+.item2 {
+  grid-area: item2;
+  height: 18.5rem; }
 
-.seccionPodcast h2{
-    text-align: center;
-    background-color: rgba(255, 0, 0, 0.568);
-}
+.item3 {
+  grid-area: item3;
+  height: 18.5rem; }
 
+.item4 {
+  grid-area: item4;
+  height: 15.5rem; }
 
+.item5 {
+  grid-area: item5;
+  height: 17.75rem; }
 
-
-
-
-/*Quienes somos*/
-
-.tituloQuienes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5rem; 
-
-}
-
-.textoUno{
-    text-align: center;
-    font-size: 1.875rem;
-    font-family: 'Racing Sans One', cursive;
-    display: flex;
-    justify-content: center;
-}
-
-.tituloOnce{
-    font-family: 'Racing Sans One', cursive; 
-    display: flex;
-    justify-content: center;
-}
-
-.flexQuienes{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-}
-
-.gallery{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 1fr 1f fr1 1fr;
-    grid-template-areas: 
-    "item1 item1 item2 item3"
-    "item1 item1 item5 item5"
-    "item4 item4 item4 item4"
-    ;
-    gap: 5px;
-}
-
-
-.item1{
-    grid-area: item1;
-    height: 500px;
-}
-
-.item2{
-    grid-area: item2;
-    height: 200px;
-}
-
-.item3{
-    grid-area: item3;
-    height: 200px;
-}
-
-.item4{
-    grid-area: item4;
-    height: 500px;
-    height: 200px;
-}
-
-.item5{
-    grid-area: item5;
-    height: 300px;
-}
-
-.item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.item img {
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .item img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
+    object-fit: cover; }
 
-.galleryTitulo{
-    width: 100%;
-    height: 10vh;
+.item img:hover {
+  transform: scale(1.15); }
+
+.galleryTitulo {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 2.5rem;
+  color: brown; }
+
+.formularioUno {
+  font-size: 1.5625rem;
+  width: 100%;
+  font-family: 'Racing Sans One', cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3.125rem; }
+
+.formularioDos {
+  width: 100%;
+  font-family: 'Racing Sans One', cursive;
+  margin-bottom: 1.25rem;
+  font-size: 1.5625rem;
+  margin-bottom: 3.125rem; }
+
+.formularioTres {
+  font-size: 1.5625rem;
+  width: 100%;
+  font-family: 'Racing Sans One', cursive;
+  margin-bottom: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  margin-bottom: 3.125rem; }
+
+.tituloDiez {
+  display: flex;
+  justify-content: center;
+  font-family: 'Racing Sans One', cursive;
+  font-size: 2.1875rem; }
+
+.textoDiez {
+  font-size: 1.25rem;
+  font-family: 'Racing Sans One', cursive;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+.cuentanosMas {
+  display: flex;
+  justify-content: center;
+  font-size: 1.875rem; }
+
+footer {
+  background-color: brown;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 15rem;
+  align-items: center; }
+  footer .footerLogo {
     display: flex;
-    justify-content: center;
-    align-items:flex-start;
-    font-size: 2.5rem;
-    color: brown;
-}
-
-
-
-/*Contacto*/
-
-
-
-.formularioUno{
-    font-size: 1.5625rem;
+    border-bottom: .625rem;
     width: 100%;
+    height: 150px; }
+  footer p {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: 'Racing Sans One', cursive; 
-    margin-bottom: 50px;
-}
+    justify-content: center; }
 
-.formularioDos{
-    width: 100%;
-    font-family: 'Racing Sans One', cursive; 
-    margin-bottom: 20px;
-    font-size:1.5625rem;
-    margin-bottom: 50px;
+@media (max-width: 1024px) {
+  header {
+    width: 103%; }
+    header div img {
+      width: 12.125rem;
+      height: 18rem; }
+  main {
+    width: 107%; }
+    main .cardEntrenamientocontainer {
+      width: 90%;
+      height: 51rem;
+      font-size: 1.125rem; }
+    main .flexRedondo {
+      width: 95%; }
+    main .cardContainer {
+      width: 94%;
+      margin-bottom: 1.25rem; }
+    main .gallery {
+      width: 93%; } }
 
-}
-
-
-.formularioTres{
-    font-size: 1.5625rem;
-    width: 100%;
-    font-family: 'Racing Sans One', cursive; 
+@media (max-width: 768px) {
+  header {
+    height: 17rem; }
+    header div img {
+      width: 15.125rem;
+      height: 19rem; }
+  .navbar {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-}
-
-
-.tituloDiez{
-    display: flex;
     justify-content: center;
-    font-family: 'Racing Sans One', cursive; 
-    font-size: 2.1875rem;
-}
+    margin-right: 7.25rem; }
+  .rounded img {
+    display: none; }
+  main {
+    background: linear-gradient(#f6613c, #3f87a6); }
+    main .flexRedondo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 96%; }
+  .fondoUno {
+    background-image: none; }
+  .cardEntrenamientocontainer {
+    height: 50rem; } }
 
-.textoDiez{
-    font-size:1.25rem;
-    font-family: 'Racing Sans One', cursive;
+@media (max-width: 425px) {
+  header div img {
+    width: 10.125rem;
+    height: 9rem; }
+  main .button {
+    background-color: rgba(255, 81, 0, 0.747);
+    font-size: 1rem;
+    margin-top: 0.25rem; }
+  main h1 {
+    font-size: 1.25rem; }
+  main .flexRedondo {
+    padding-top: 0px; }
+  main .cardContainer {
+    height: 78.25rem;
     display: flex;
-    justify-content: center;
-    text-align: center;
-}
+    flex-direction: column;
+    width: 92%; }
+    main .cardContainer .card {
+      width: 73%;
+      height: 12.5rem;
+      font-size: 1rem; }
+  main .cardGrid .imgNutricionuno, main .cardGrid .imgNutriciondos, main .cardGrid .imgNutriciontres {
+    width: 12.5rem;
+    height: 6.5rem; }
+  main .textoUno {
+    font-size: 0.900rem; }
+  main .galleryTitulo {
+    font-size: 1.5rem; }
+  main .cuentanosMas {
+    font-size: 1rem; }
+  main label {
+    font-size: 1.25rem; }
+  main .textoDiez {
+    font-size: 1rem; }
+  main .cardEntrenamientocontainer {
+    height: 101rem; } }
 
-.cuentanosMas{
+@media (max-width: 420px) {
+  header div img {
+    width: 10.125rem;
+    height: 9rem; }
+  main {
+    height: 95.25rem; }
+    main .button {
+      background-color: rgba(255, 81, 0, 0.747);
+      font-size: 1rem;
+      margin-top: 0.25rem; }
+    main h1 {
+      font-size: 1.25rem; }
+    main h2 {
+      font-size: 1rem;
+      text-align: center;
+      width: 117%; }
+    main .flexRedondo {
+      padding-top: 0px; }
+    main .cardContainer {
+      height: 68.25rem;
+      display: flex;
+      flex-direction: column;
+      width: 79%; }
+      main .cardContainer .card {
+        width: 57%;
+        height: 15.5rem;
+        font-size: 0.9rem; }
+    main .cardGrid .imgNutricionuno, main .cardGrid .imgNutriciondos, main .cardGrid .imgNutriciontres {
+      width: 12.5rem;
+      height: 6.5rem; }
+    main .textoUno {
+      font-size: 0.900rem; }
+    main .galleryTitulo {
+      font-size: 1.5rem; }
+    main .cuentanosMas {
+      font-size: 1rem; }
+    main label {
+      font-size: 1.25rem; }
+    main .textoDiez {
+      font-size: 1rem; }
+    main .cardEntrenamientocontainer .cardE {
+      width: 11.75rem;
+      height: 27rem;
+      font-size: .9375rem;
+      margin-bottom: 20px; }
+    main .iframeIndex {
+      display: none; } }
+
+@media (max-width: 320px) {
+  header {
+    width: 102%;
+    height: 19.5rem;
+    margin-bottom: .25rem; }
+    header div img {
+      width: 7.125rem;
+      height: 12rem; }
+  .navbar {
     display: flex;
-    justify-content: center;
-    font-size: 1.875rem;
-}
-
-
-
-/*footer*/
-footer{
-    background-color: brown;
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
-    height: 240px;
-    align-items: center;
-}
-
-footer p{
-    display: flex;
-    justify-content: center;
-}
-
-.footerLogo{
-    display: flex;
-    border-bottom: 10px;
-    width: 100%;
-    height: 150px;
-}
-
-
-
-@media(max-width:420px){
-    .navbar{
-        flex-direction: column;
-        font-size: .625rem;
-        align-items: center;
-        gap: 9px;
-    }
-    header{
-        margin-bottom: 128px;
-        height: 309px;
-    }
-    .cuentanosMas{
-        font-size: 1.5rem;
-    }
-    .legend{
-        font-size:1.5rem;
-    }   
-    .flexQuienes{
-        flex-direction: column;
-        gap:10px;
-        justify-content: flex-end;
-        align-items: center;
-    }
-    .flexQuienes img{
-        width: 145px;
-        margin-top: -7px;
-    }
-    .textoUno{
-        font-size:1.125rem;
-    }
-    .tituloQuienes{
-        font-size: 1.5625rem;
-    }
-    .galleryTitulo{
-        font-size: 1.625rem;
+    flex-direction: column;
+    justify-content: flex-start; }
+  main {
+    width: 20.5rem; }
+    main .cardContainer {
+      height: 61.25rem;
+      display: flex;
+      flex-direction: column; }
+      main .cardContainer .card {
+        background-color: rgba(4, 128, 0, 0.836);
+        border: 2px solid black;
+        box-shadow: 3px 2px 5px black;
         text-align: center;
-    }
-    .gallery{
-        display: grid;
-        grid-template-columns: repeat(1,3%);
-        grid-template-rows:repeat(1,28%);
-        grid-area:  
-        "item1 item3 "
-        "item1 item3"
-        "item1 item4"
-        "item5 item5"
-        ;
-    }
-
-}   
-
-
-
-
-@media(max-width:320px){
-    header{
-        width: 105%;
-        margin-bottom: 7px;
-        height: 391px;
-    }
-    body{
-        width: 100%;
-
-    }
-    .navbar{
-        flex-direction: column;
-        font-size: 3.625rem;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 9px;
-        width: 100%;
-
-    }
-}
-
-@media(max-width:768px){
-    .navbar{
-        flex-direction: column;
-        align-items: center;
-        width: 100%;    
-    }
-    
-}
-
-
-
+        font-family: 'Racing Sans One', cursive;
+        font-size: 0.900rem;
+        border-radius: 0.9375rem; }
+    main h1 {
+      font-size: 1.20rem; }
+    main .flexRedondo {
+      height: 24.25rem; }
+      main .flexRedondo img {
+        width: 8.5rem;
+        height: 8.5rem; }
+    main button {
+      margin-top: 0.1rem; }
+  .iframeIndex {
+    height: 281px; }
+  .cardGrid {
+    width: 160%;
+    height: 41.75rem;
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    grid-template-areas: "seccionHdc " "seccionProteinas" "seccionGrasas "; }
+    .cardGrid img {
+      display: none; }
+  .input-group > .form-control, .input-group > .form-floating, .input-group > .form-select {
+    flex: 0.96 0 auto; }
+  .formularioTres {
+    font-size: 0.9rem; }
+  .textoDiez {
+    font-size: 0.7rem; }
+  legend {
+    font-size: calc(0.9rem + .3vw); }
+  .cuentanosMas {
+    font-size: 0.9rem; }
+  .tituloDiez {
+    font-size: 2rem; }
+  .cardEntrenamientocontainer .cardE {
+    background: linear-gradient(#03d337, #bd1d18);
+    width: 17.75rem;
+    height: 12.5rem;
+    border: 2px solid black;
+    box-shadow: 3px 2px 5px black;
+    text-align: center;
+    font-family: 'Racing Sans One', cursive;
+    border-radius: 0.9375rem;
+    display: flex;
+    flex-direction: column; }
+  .cardEntrenamientocontainer .cardImg {
+    width: 99%;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: visible; }
+  .cardEntrenamientocontainer .cardInfo {
+    color: black;
+    margin-top: 1.0625rem;
+    font-size: 0.9rem; }
+  h2 {
+    font-size: 1rem;
+    text-decoration: underline;
+    color: rgba(255, 0, 0, 0.842); } }

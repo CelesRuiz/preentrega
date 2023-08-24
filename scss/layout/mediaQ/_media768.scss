@@ -1,0 +1,41 @@
+
+@media(max-width:768px){
+    header{
+        height: 17rem;
+        div{
+            img{
+                width: 15.125rem;
+                height: 19rem;
+            }
+        }
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 7.25rem;
+    }
+    .rounded{
+            img{
+            display: none;
+            }
+    }
+    main{
+        background: linear-gradient(#f6613c, #3f87a6);
+    .flexRedondo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 96%;
+        }
+    }
+    .fondoUno{
+        background-image:none;
+    }
+    .cardEntrenamientocontainer{
+        height: 50rem;
+    }
+}
+
+
+

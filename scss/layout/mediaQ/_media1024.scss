@@ -1,0 +1,29 @@
+@media(max-width:1024px){
+    header{
+        width: 103%;
+        div{
+            img{
+                width: 12.125rem;
+                height: 18rem;
+            }
+        }
+    }
+    main{
+        width: 107%;
+        .cardEntrenamientocontainer {
+            width: 90%;
+            height: 51rem;
+            font-size: 1.125rem;
+        }
+        .flexRedondo{
+            width: 95%;
+        }
+        .cardContainer{
+            width: 94%;
+            margin-bottom: 1.25rem;
+        }
+        .gallery{
+            width: 93%;
+        }
+    }
+}

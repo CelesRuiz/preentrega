@@ -1,0 +1,125 @@
+
+@media(max-width:320px){
+    header{
+        width: 102%;
+        height: 19.5rem;
+        margin-bottom: .25rem;
+        div{
+            img{
+                width: 7.125rem;
+                height: 12rem;
+            }
+        }
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        }
+    main{
+        width: 20.5rem;
+        .cardContainer{
+            height: 61.25rem;
+            display: flex;
+            flex-direction: column; 
+            .card{
+                background-color: rgba(4, 128, 0, 0.836);
+                border: 2px solid black;
+                box-shadow: 3px 2px 5px black;
+                text-align: center;
+                font-family: 'Racing Sans One', cursive;
+                font-size: 0.900rem;
+                border-radius: 0.9375rem;
+            }
+        }
+        h1{
+            font-size: 1.20rem;
+        }
+        .flexRedondo{
+            height: 24.25rem;
+                img{
+                    width: 8.5rem;
+                    height: 8.5rem;
+                }
+            }
+        button{
+            margin-top: 0.1rem;
+        }
+    }
+    
+    .iframeIndex{
+        height: 281px;
+    }
+    .cardGrid{
+        width: 160%;
+        height: 41.75rem;
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+        grid-template-areas:
+        "seccionHdc "
+        "seccionProteinas"
+        "seccionGrasas ";
+        img{
+            display: none;
+        }
+    }
+    .input-group>.form-control, .input-group>.form-floating, .input-group>.form-select {
+        flex: 0.96 0 auto;
+    }
+    .formularioTres{
+        font-size: 0.9rem;
+    }
+    .textoDiez {
+        font-size: 0.7rem;
+        }
+    legend{
+        font-size: calc(0.9rem + .3vw);
+    }
+    .cuentanosMas {
+        font-size: 0.9rem;
+        }
+    .tituloDiez {
+        font-size: 2rem;
+        }
+.cardEntrenamientocontainer {
+    .cardE{
+        background: linear-gradient(#03d337, #bd1d18);
+        width: 17.75rem;
+        height: 12.5rem;
+        border: 2px solid black;
+        box-shadow: 3px 2px 5px black;
+        text-align: center;
+        font-family: 'Racing Sans One', cursive;
+        border-radius: 0.9375rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .cardImg {
+        width: 99%;
+        height: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+        }
+        .cardInfo {
+            color: black;
+            margin-top: 1.0625rem;
+            font-size: 0.9rem;
+        }
+    }
+    h2{
+        font-size: 1rem;
+        text-decoration: underline;
+        color: rgba(255, 0, 0, 0.842);
+    }
+
+
+
+
+
+}
+
+
+

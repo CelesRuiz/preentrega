@@ -24,17 +24,26 @@
         }
         .flexRedondo {
             padding-top: 0px;
+            width: 93%;
+                img{
+                    border-radius: 3.625rem;
+                    width: 7.5rem;
+                    height: 6.5rem;
+                    margin-top: .25rem;
+                }
         }
         .cardContainer{
-            height: 68.25rem;
+            height: 72.25rem;
             display: flex;
             flex-direction: column;
-            width: 79%;
+            width: 82%;
+            margin-top: .625rem;
                 .card{
-                    width: 57%;
-                    height: 15.5rem;
+                    width: 74%;
+                    height: 14.5rem;
                     font-size: 0.9rem;
-                }
+                    margin-top: -2.875rem;               
+                    }
         }
         .cardGrid{
             .imgNutricionuno{
@@ -58,6 +67,7 @@
             font-size: 1rem;
         }
         .cardEntrenamientocontainer{
+            height: 83rem;
             .cardE{
                 width: 11.75rem;
                 height: 27rem;
@@ -68,6 +78,35 @@
         .iframeIndex{
             display: none;
         }
+        .gallery {
+            img{
+                height: 15.25rem;
+            }
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+            "item1"
+            "item2"
+            "item3"
+            "item5";
+            }
+            .item4{
+                display: none;
+            }
+            .item{
+                height: 6.25rem;
+            }
+            .tituloOnce{
+                padding-right: 72px;
+                margin-top: -1.0625rem;
+            }
+            .iframeQuienes{
+                display: none;
+            }
     }
 
+
+
 }   
+

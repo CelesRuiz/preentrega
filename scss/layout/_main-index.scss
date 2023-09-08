@@ -13,6 +13,7 @@
     justify-content: center;
     justify-content: space-evenly;
     align-items: flex-end;
+    margin-bottom: 20px;
         .card{
             background-color:$color-cards ;
             width: 18.75rem;
@@ -51,3 +52,4 @@
 .flexRedondo img:hover{
     transform: scale(1.15);
 }
+

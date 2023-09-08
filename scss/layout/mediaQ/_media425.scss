@@ -1,5 +1,7 @@
 @media(max-width:425px){
     header{
+        height: 20rem;
+        width: 120%;
         div{
             img{
                 width: 10.125rem;
@@ -8,6 +10,7 @@
         }
     }
     main{
+        width: 128%;
         .button {
             background-color: rgba(255, 81, 0, 0.747);
             font-size: 1rem;
@@ -15,15 +18,22 @@
             }
         h1{
             font-size: 1.25rem;
+            width: 79%;
         }
         .flexRedondo {
             padding-top: 0px;
+            width: 83%;
+                img{
+                    border-radius: 5rem;
+                    width: 7.5rem;
+                    height: 7.5rem;
+                }
         }
         .cardContainer{
             height: 78.25rem;
             display: flex;
             flex-direction: column;
-            width: 92%;
+            width: 72%;
                 .card{
                     width: 73%;
                     height: 12.5rem;
@@ -31,6 +41,8 @@
                 }
         }
         .cardGrid{
+            width: 81%;
+            height:52.75rem;
             .imgNutricionuno{
                 width: 12.5rem;
                 height: 6.5rem;
@@ -52,8 +64,92 @@
             font-size: 1rem;
         }
         .cardEntrenamientocontainer{
-            height: 101rem;
+            height: 106rem;
+            width: 80%;
+        }
+        .gallery {
+            img{
+                height: 15.25rem;
+            }
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+            "item1"
+            "item2"
+            "item3"
+            "item5";
+            }
+            .item4{
+                display: none;
+            }
+            .item{
+                height: 6.25rem;
+            }
+            .iframeQuienes{
+                width: 93%;
+            }
+            .iframeIndex{
+                width: 79%;
+            }
+            .iframeUno{
+                height: 20.875rem;
+            }
+            .iframeMap{
+                width: 80%;
+            }
+            .form-control{
+                font-size: 1rem;
+            }
+            .input-group>.form-control, .input-group>.form-floating, .input-group>.form-select{
+                margin-right: 4.6875rem;
+            }
+            .seccionRecetario{
+                h3{
+                    margin-right: 6.8125rem;
+                }
+            }
+            .tituloDiez{
+                font-size: 1.8rem;
+                margin-right: 5rem;
+            }
+            .flexQuienes{
+                width: 97%;
+                height: 8.5rem;
+            }
+    }
+    footer{
+        width: 106%;
+    }
+    .mainError{
+        height: 19.75rem;
+        .tarjeta{
+            width: 31.5rem;
+                img{
+                    width: 153%;
+                    height: 12.5rem;
+                }
+        }
+        .tituloError{
+            font-size: 2.25rem;
+            margin-right: 7rem;
         }
     }
+    .footerError{
+        width: 117%;
+        height: 28.25rem;
+            p{
+                font-size: 1rem;
+                margin-right: 197px;
+                margin-top: -120px;
+            }
+            button{
+                margin-left: 0;
+            }
+        }
+
+
+
+
 
 }   

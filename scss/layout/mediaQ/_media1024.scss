@@ -26,4 +26,31 @@
             width: 93%;
         }
     }
+    .mainError{
+        height: 19.75rem;
+        .tarjeta{
+            width: 31.5rem;
+                img{
+                    width: 153%;
+                    height: 12.5rem;
+                }
+        }
+        .tituloError{
+            font-size: 1.6rem;
+            margin-right: 7rem;
+        }
+    }
+    .footerError{
+        width: 117%;
+        height: 28.25rem;
+            p{
+                font-size: 1.5rem;
+                margin-right: 295px;
+            }
+            button{
+                margin-left: 0;
+                margin-right: 12.75rem;
+            }
+        }
+    
 }

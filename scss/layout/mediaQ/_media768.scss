@@ -22,19 +22,90 @@
     }
     main{
         background: linear-gradient(#f6613c, #3f87a6);
-    .flexRedondo{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 96%;
+        .flexRedondo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 96%;
+        }
+        .iframeIndex{
+            height: 22.5rem;
+            width: 94%;
+        }
+        .iframeQuienes{
+                width: 94%;
+                height: 25.25rem;
+        }
+        .fondoUno{
+            background-image:none;
+        }
+        .cardEntrenamientocontainer{
+            height: 50rem;
+                .cardE{
+                    height: 24.5rem;
+                    margin-left: 1.875rem;
+                }
+        }
+        .imgNutricionuno{
+            height: 12.5rem;
+        }
+        .seccionProteinas{
+            width: 86%;
+        }
+        .textoUno{
+            font-size: 1.5rem;
+        }
+        .galleryTitulo{
+            font-size: 2rem;
+        }
+        h1{
+            font-size: 2.1rem;
+        }
+        .form-control{
+            font-size: 2rem;
+        }
+        .btn-outline-secondary {
+            --bs-btn-color: #080808;
+        }
+        .textoDiez{
+            font-size: 1rem;
+            padding-right: 2.625rem;
+        }
+        .iframeMap{
+            iframe{
+                width: 80%;
+                height: 18.0625rem;
+                padding-right: 2.125rem;
+            }
         }
     }
-    .fondoUno{
-        background-image:none;
+    .mainError{
+        height: 19.75rem;
+        .tarjeta{
+            width: 31.5rem;
+                img{
+                    width: 153%;
+                    height: 12.5rem;
+                }
+        }
+        .tituloError{
+            font-size: 1.6rem;
+            margin-right: 7rem;
+        }
     }
-    .cardEntrenamientocontainer{
-        height: 50rem;
-    }
+    .footerError{   
+        width: 117%;
+        height: 28.25rem;
+            p{
+                font-size: 2.5rem;
+                margin-right: 373px;
+            }
+            button{
+                margin-left: 0;
+                margin-right: 12.75rem;
+            }
+        }
+    
 }
 
 

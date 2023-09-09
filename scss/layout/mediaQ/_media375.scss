@@ -1,0 +1,97 @@
+@media(max-width:375px){
+    main{
+        h1{
+            margin-right: 5.1875rem;
+            font-size: 1rem;
+        }
+        .flexRedondo{
+            width: 81%;
+        }
+        .cardContainer{
+            width: 71%;
+        }
+        .cardEntrenamientocontainer {
+            height: 78rem;
+            display: flex;
+            flex-direction: column;
+            width: 74%;
+            margin: .625rem;
+                .cardE{
+                    padding: .625rem;
+                    width: 50%;
+                    height: 16rem;
+                    margin-bottom: 20px;
+                }
+                .cardInfo{
+                    ul{
+                        li{
+                            display: none; 
+                        }
+                    }
+                }
+        }
+        .cardGrid{
+            width: 80%;
+            height: 865px;
+        }
+        h2{
+            height:2.25rem;
+        }
+        .textoUno{
+            margin-right: 4.8125rem;
+        }
+        .tituloOnce{ 
+            padding-right: 10.6875rem;
+        }
+        .flexQuienes {
+            width: 79%;
+            height: 7.5rem;
+        }
+        .iframeMap{
+                width: 77;
+                height: 18.0625rem;
+                padding-left: 0.625rem;
+        }
+        .textoDiez{
+            font-size: 0.625rem;
+            margin-right: 1.8125rem;
+        }
+        .tituloDiez{
+            margin-right: 4.5625rem;
+            font-size: 1.875rem;
+        }
+    }
+    footer{
+        width: 100%;
+    }
+    .mainError{
+        .tarjeta{
+            width: 31.5rem;
+                img{
+                    width: 132%;
+                    height: 14.5rem;
+                }
+        }
+    }
+    .footerError{
+        width: 117%;
+        height: 28.25rem;
+            p{
+                font-size: 1rem;
+                margin-right: 141px;
+                margin-top: -120px;
+            }
+            button{
+                margin-left: 0;
+            }
+        }
+
+
+
+
+
+
+
+
+
+}

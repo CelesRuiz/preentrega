@@ -1,0 +1,71 @@
+@media(max-width:500px){
+    main{
+        h1{
+            font-size: 0.93rem;
+        }
+        p{
+            font-size: 14px;
+        }
+        .cardContainer{
+            .card{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+        .cardEntrenamientocontainer{
+            height: 102rem;
+        }
+        .imgNutricionuno{
+            height: 8.5rem;
+        }
+        .seccionProteinas{
+            width: 86%;
+        }
+        .iframeUno{
+            width: 76%;
+            margin-left: 56px;
+        }
+        .textoUno{
+            font-size: 1rem;
+        }
+        .gallery {
+            img{
+                height: 15.25rem;
+            }
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+            "item1"
+            "item2"
+            "item3"
+            "item5";
+            }
+            .item4{
+                display: none;
+            }
+            .item{
+                height: 6.25rem;
+            }
+            .formularioUno{
+                width: 96%;
+            }
+            .formularioDos{
+                width: 92%;
+            }
+            .cuentanosMas{
+                font-size: 1rem;
+            }
+            label{
+                font-size: 1.125rem;
+            }
+            .flexRedondo{
+                img{
+                    border-radius: 15.625rem;
+                    width: 10.5rem;
+                    height: 10.5rem;
+                }
+            }
+    }
+}
